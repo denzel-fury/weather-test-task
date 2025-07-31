@@ -17,7 +17,8 @@ A responsive React app that fetches and displays weather data by city using the 
 
 - React (w/ Hooks)
 - TypeScript or JavaScript
-- Tailwind CSS (or any CSS framework of your choice)
+- Tailwind CSS
+- redux-toolkit
 - Axios
 - Lodash (for debounce)
 - react-i18next (internationalization)
@@ -27,8 +28,12 @@ A responsive React app that fetches and displays weather data by city using the 
 
 ## 📦 Installation
 
+- Create `.env` file with REACT_APP_WEATHER_API_KEY key that responsible for weather api communication
+  find more at `https://openweathermap.org/api`
+
 ```bash
 git clone https://github.com/yourusername/weather-app.git
 cd weather-app
 yarn
+yarn run start
 ```

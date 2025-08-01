@@ -37,3 +37,13 @@ cd weather-app
 yarn
 yarn run start
 ```
+
+---
+
+## 📦 Testing
+
+Project covered with tests unit/snapshots
+
+```bash
+yarn test
+```

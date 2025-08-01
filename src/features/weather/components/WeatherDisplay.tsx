@@ -1,9 +1,9 @@
 import React from 'react'
 import { useTranslation } from "react-i18next";
-import { WeatherData } from '../../api/types'
+
 
 interface WeatherDisplayProps {
-  weather: WeatherData;
+  weather: any;
 }
 
 const WeatherDisplay: React.FC<WeatherDisplayProps> = ({ weather }) => {

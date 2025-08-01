@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`HistorySection matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="mb-4"
+    data-testid="history-section"
+  >
+    <h3
+      class="font-bold mb-2"
+    >
+      searchHistory
+    </h3>
+    <ul>
+      <li
+        class="flex justify-between items-center mb-1"
+      >
+        <button
+          class="text-blue-600 hover:underline"
+          data-testid="history-Paris"
+        >
+          Paris
+        </button>
+        <button
+          class="text-red-500"
+          data-testid="delete-Paris"
+        >
+          X
+        </button>
+      </li>
+      <li
+        class="flex justify-between items-center mb-1"
+      >
+        <button
+          class="text-blue-600 hover:underline"
+          data-testid="history-Berlin"
+        >
+          Berlin
+        </button>
+        <button
+          class="text-red-500"
+          data-testid="delete-Berlin"
+        >
+          X
+        </button>
+      </li>
+      <li
+        class="flex justify-between items-center mb-1"
+      >
+        <button
+          class="text-blue-600 hover:underline"
+          data-testid="history-London"
+        >
+          London
+        </button>
+        <button
+          class="text-red-500"
+          data-testid="delete-London"
+        >
+          X
+        </button>
+      </li>
+    </ul>
+    <button
+      class="text-sm text-green-600 mt-2"
+      data-testid="undo-button"
+    >
+      undoDelete
+    </button>
+  </div>
+</DocumentFragment>
+`;

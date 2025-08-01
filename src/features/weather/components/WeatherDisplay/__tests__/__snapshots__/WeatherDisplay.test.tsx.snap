@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`WeatherDisplay matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="bg-gray-100 p-4 rounded mb-4"
+    data-testid="weather-display"
+  >
+    <h2
+      class="text-xl font-semibold"
+    >
+      Paris
+    </h2>
+    <p>
+      clear sky
+    </p>
+    <p>
+      temp: 25°C
+    </p>
+    <p>
+      min: 20°C / max: 28°C
+    </p>
+    <p>
+      wind: 5 m/s
+    </p>
+  </div>
+</DocumentFragment>
+`;

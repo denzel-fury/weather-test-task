@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`WeatherSearch matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col mb-4"
+  >
+    <div
+      class="flex"
+    >
+      <input
+        class="flex-1 border p-2"
+        data-testid="city-input"
+        placeholder="enterCity"
+        type="text"
+        value=""
+      />
+      <button
+        class="ml-2 bg-blue-500 text-white px-4 py-2"
+        data-testid="search-button"
+      >
+        search
+      </button>
+    </div>
+    <ul
+      class="bg-white border mt-1"
+    >
+      <li
+        class="p-2 cursor-pointer hover:bg-gray-100"
+      >
+        London
+      </li>
+      <li
+        class="p-2 cursor-pointer hover:bg-gray-100"
+      >
+        Lisbon
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

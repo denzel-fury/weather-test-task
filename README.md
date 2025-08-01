@@ -40,7 +40,7 @@ yarn run start
 
 ---
 
-## 📦 Testing
+## 🔧 Testing
 
 Project covered with tests unit/snapshots
 

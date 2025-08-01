@@ -42,7 +42,7 @@ yarn run start
 
 ## 🔧 Testing
 
-Project covered with tests unit/snapshots
+Project is covered with tests unit/snapshots
 
 ```bash
 yarn test
